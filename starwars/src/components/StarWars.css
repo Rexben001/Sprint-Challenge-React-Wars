@@ -1,0 +1,56 @@
+
+
+.StarWar {
+  background-color: rgba(15, 13, 13, 0.76);
+  width: 100%;
+  margin: 2rem auto;  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 1px 2px 2px 1px black;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.StarWar:hover{
+    box-shadow: 2px 4px 4px 2px black;
+
+}
+
+h3 {
+  font-size: 2rem;
+  text-align: center;
+  color: white;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+tr:nth-child(odd) {
+  color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+  color: black;
+}
+
+tr:hover {
+  background-color: rgba(15, 14, 14, 0.014);
+}
+
+
+@media (max-width: 800px){
+    .StarWar{
+        width: 500px;
+    }
+}

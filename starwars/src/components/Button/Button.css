@@ -1,0 +1,30 @@
+button {
+    cursor: pointer;
+    padding: 1rem;
+    outline: none;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    width: max-content;
+  }
+  
+  button:hover{
+    background-color: blue;
+    color: white;
+  }
+  
+  button:disabled{
+    background-color: rgba(128, 128, 128, 0.575);
+    color: grey;
+  }
+  /* .previous{
+    float: left;
+  }
+  
+  .next{
+  float: right;
+  } */
+
+  .button-container{
+      display: flex;
+      justify-content: space-between;
+  }
